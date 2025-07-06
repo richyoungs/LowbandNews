@@ -1,2 +1,34 @@
-# -LowbandNews
-This is the server code used to pull news and media headlines from public RSS feeds to display through TELNET, primarily for use on internet-connected machines such as a Commodore 64 or TI 99/4A or any other 8-bit connected machine. 
+# Lowband.News
+
+**Lowband.News** is a lightweight, retro-friendly news headline fetcher and server designed to work on modern systems while remaining accessible from vintage computers like the Commodore VIC-20, C64, and C128 using a WiFi modem or terminal software.
+
+This project fetches the latest RSS headlines from a configured news source and serves them as a simple text file over HTTP — ideal for low-bandwidth viewing and BBS-like interfaces.
+
+---
+
+## 🛠 Features
+
+- Fetches headlines from any RSS feed (e.g., NYTimes, BBC, etc.)
+- Outputs simple, readable `.txt` files
+- Serves headlines locally over HTTP (default port: 8000)
+- Compatible with real retro hardware via user port WiFi modem
+- Runs on any modern system with Python 3
+
+---
+
+## 📦 Included Files
+
+| File         | Description                                     |
+|--------------|-------------------------------------------------|
+| `get_news.py`| Fetches headlines and saves to `news.txt`       |
+| `server.py`  | Serves the current directory over HTTP          |
+
+---
+
+## 🚀 Usage
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/lowbandnews.git
+cd lowbandnews
