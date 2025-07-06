@@ -4,6 +4,8 @@
 
 This project fetches the latest RSS headlines from a configured news source and serves them as a simple text file over HTTP — ideal for low-bandwidth viewing and BBS-like interfaces.
 
+You can see the functionality of the software by using TELNET on the address: 144.48.104.213:2323, which will generate pull the latest headlines the script has pulled. 
+
 ---
 
 ## 🛠 Features
